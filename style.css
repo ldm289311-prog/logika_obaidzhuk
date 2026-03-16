@@ -1,0 +1,127 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Hobo bd;
+}
+
+:root {
+    --primary-color: #3e2723;
+    --acent-color: #d7ccc8;
+    --text-color: #333;
+    --bg-color: #fafafa;
+}
+
+
+body {
+    font-family: Monospace;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 28px;
+    background-color: var(--primary-color);
+    color: var(--acent-color);
+    font-size: 26px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: var(--acent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--acent-color);
+}
+
+footer p{
+    text-align: center;
+    padding: 28px 0;
+    font-size: 26px;
+}
+
+.foto {
+    background-image: url(img/lucid-origin_Generate_a_picture_of_a_warm_and_inviting_restaurant_with_a_predominantly_brown_-0.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.about {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+.about p {
+    font-size: 24px;
+}
+
+.abc {
+    font-weight: bolder;
+}
+
+nav a:hover {
+    transition: 2sec;
+    color: rgb(77, 112, 77);
+}
+
+
+.menu{
+    margin: 100px 0;
+}
+
+.menu-img{
+    text-align: center;
+    margin-bottom: 50px;   
+}
+
+.menu-title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
+.menu-item{
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.menu-item_title{
+    margin: 15px;
+    color: var(--primary-color);
+    font-size: 25px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.menu-item{
+    color:rgb(68, 39, 39);
+     
+}
